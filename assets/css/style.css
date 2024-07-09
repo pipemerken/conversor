@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.center-text-input {
+    text-align: center;
+}
+
+.custom-hr {
+    border: 0;
+    height: 2px;
+    background: rgb(30, 217, 205);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container-dark {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 400px; /* Reduce el tamaño horizontal del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.form-control {
+    max-width: 230px; /* Reduce el tamaño horizontal del campo de entrada */
+    margin: 0 auto; /* Centrar el campo de entrada */
+}
+
+.form-select {
+    max-width: 230px; /* Reduce el tamaño horizontal del select */
+    margin: 0 auto; /* Centrar el select */
+}
+
+.btn {
+    max-width: 230px; /* Reduce el tamaño horizontal del botón */
+    margin: 0 auto; /* Centrar el botón */
+    display: block; /* Convertir el botón a bloque para centrarlo */
+}
